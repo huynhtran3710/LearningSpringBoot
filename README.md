@@ -1,0 +1,1 @@
+Có thể di chuyển class chứa hàm main (DemoApplication.java) sang nơi khác trong cấu trúc dự án. Miễn là nó nằm trong gói (package) chính hoặc một gói con của gói chính của ứng dụng Spring Boot. Điều này đảm bảo rằng Spring Boot có thể quét và phát hiện các thành phần, cấu hình và các lớp trong dự án.
