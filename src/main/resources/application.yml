@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: LearningSpringBoot
+  datasource:
+    url: jdbc:mysql://localhost:3306/learning_spring
+    username: root
+    password: 12345
+
+#  You should add this jpa to create a table in the db (map from obj to entity)
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: true
